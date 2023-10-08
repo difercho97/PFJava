@@ -1,0 +1,32 @@
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+    implementation 'software.amazon.awssdk:sts'
+    implementation 'org.springframework.boot:spring-boot-starter-undertow:2.6.7'
+    implementation project(':api-rest')
+    implementation 'org.reactivecommons.utils:object-mapper:0.1.0'
+    implementation project(':jpa-repository')
+    implementation project(':model')
+    implementation project(':usecase')
+    implementation 'org.springframework.boot:spring-boot-starter'
+    runtimeOnly('org.springframework.boot:spring-boot-devtools')
+}
+
+task explodedJar(type: Copy) {
+    with jar
+    into "${buildDir}/exploded"
+}
+
+configurations {
+    implementation.exclude group: "org.springframework.boot", module: "spring-boot-starter-tomcat"
+}
+
+jar {
+    // To disable the *-plain.jar
+    enabled = false
+}
+
+bootJar {
+    // Sets output jar name
+    archiveFileName = "${project.getParent().getName()}.${archiveExtension.get()}"
+}
