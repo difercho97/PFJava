@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"co.com.proyectofinaldiegovargas.model.animal"},{"l":"co.com.proyectofinaldiegovargas.model.animal.gateways"}]

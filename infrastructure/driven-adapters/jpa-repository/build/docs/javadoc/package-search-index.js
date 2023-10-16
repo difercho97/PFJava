@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"co.com.proyectofinaldiegovargas.jpa"},{"l":"co.com.proyectofinaldiegovargas.jpa.config"},{"l":"co.com.proyectofinaldiegovargas.jpa.entities"},{"l":"co.com.proyectofinaldiegovargas.jpa.helper"}]

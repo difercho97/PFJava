@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"co.com.proyectofinaldiegovargas","l":"MainApplication"},{"p":"co.com.proyectofinaldiegovargas.config","l":"ObjectMapperConfig"},{"p":"co.com.proyectofinaldiegovargas.config","l":"UseCasesConfig"}]
